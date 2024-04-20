@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack Assignment
+
+This assignment is a comprehensive full stack application built using the following technologies:
+
+Preview URL: [View Live Site](https://full-stack-development-assignment.vercel.app/)
+
+## Technologies Used
+
+### Front-end
+- **Next.js 14**: The latest version of Next.js, a popular React framework for building server-rendered and static websites.
+- **TypeScript**: A statically typed superset of JavaScript, enhancing code quality and maintainability.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+
+### Back-end
+- **Next.js API Routes**: Serverless API routes provided by Next.js for handling server-side logic.
+- **Prisma ORM**: A modern Object-Relational Mapping (ORM) tool for interacting with databases.
+- **PostgreSQL**: A powerful open-source relational database management system.
+- **Neon Database Provider**: A high-performance database provider for PostgreSQL, used in conjunction with Prisma.
+
+### Authentication
+- **Next-Auth**: A comprehensive authentication library for Next.js applications, simplifying the implementation of secure authentication flows.
+
+### Image Upload
+- **Uploadthing**: A modern file upload library for the web, utilized for efficient and secure image uploads.
+
+## Email Verification
+
+The application includes an email verification feature powered by Next-Auth. For the free tier plan, only one email address can be used for testing purposes. During the development and testing phase, you can use the following email address: `generativeai1@gmail.com`.
+
+Additionally, a "Resend Verification Email" functionality is available to streamline the email verification process.
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository
+2. Install dependencies: `npm install` or `yarn install`
+3. Set up the environment variables (e.g., database credentials, authentication secrets)
+4. Run the development server: `npm run dev` or `yarn dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The application can be deployed to various hosting platforms, such as Vercel, Netlify, or a custom server. Refer to the deployment documentation of your preferred platform for specific instructions.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please follow the standard GitHub workflow for submitting pull requests:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Commit your changes
+4. Push to your fork
+5. Submit a pull request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
